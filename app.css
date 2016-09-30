@@ -21,10 +21,37 @@ nav {
 
 .pushed {
 	padding-left: 510px;
+	font-weight: 800;
+}
+
+.black {
+	color: black; important!
+}
+
+a:active, a:hover, a:visited,  a:link {
+	color:black;
+	text-decoration: none;
+}
+
+.lefty {
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+.dropped {
+	width: 330px;
+	border-left: 1px solid #D1DEE8;
+	padding-left: 45px;
+	margin-left: 35px;
+	margin-top: 25px;
+	vertical-aling: middle;
+	color: black
+/* 	height: 26px; */
 }
 
 .border-top {
 	border-top: 1px solid #D1DEE8;
+	margin-top: -5px
 }
 
 .little-push {
@@ -33,7 +60,13 @@ nav {
 
 .for-you span {
 	color: red;
+	font-weight: 800;
 } 
+
+.black span {
+	color:black;
+	font-weight: 800;
+}
 
 .little-push a {
 	color: red;
@@ -42,6 +75,10 @@ nav {
 .navbar-default {
 	background-color: white;
 	border-bottom: 1px solid #E7E7E7
+}
+
+.user-img {
+	margin-right: 30px;
 }
 
 .center {
@@ -63,7 +100,9 @@ nav {
 	padding-left: 275px;
 	width: 470px;
 	margin-right: 105px;
-	border: 1px solid black
+/* 	border: 1px solid black */
+	background-color: transparent;
+	margin-top:-5px
 }
 
 .col-two {
@@ -72,10 +111,11 @@ nav {
 	padding-rigt: 0
 }
 
-.col-two p {
+.margined-1 {
 	margin-top: 55px;
 	font-size: 13px;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
+	line-height: 200%
 }
 
 .demo {
@@ -87,6 +127,8 @@ nav {
 	margin-right: 15px;
 	width: 155px;
 	height: 60px;
+	vertical-align: middle;
+	font-size: 15px;
 }
 
 .try-free {
@@ -98,13 +140,20 @@ nav {
 	margin-left: 15px;
 	width: 255px;
 	height: 60px;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.text-demo {
+	vertical-align: middle
 }
 
 .button-container {
 	border-bottom: 1px solid #D1DEE8;
 	padding-bottom: 50px;
 	width: 520px;
-	margin-left: 60px
+	margin-left: 60px;
+	margin-bottom: 20px;
 }
 
 .container-for-text {
@@ -114,7 +163,7 @@ nav {
 
 .textbox {
 	text-align: left;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 .checked {
@@ -183,8 +232,20 @@ nav {
 }
 
 .item-span {
-	border-bottom: 1px solid #D1DEE8;
 	font-weight: 800; 
+	padding-top: 5px;
+}
+
+.price-span {
+	font-size: 12px
+}
+
+.top-pad {
+	padding-top: 35px;
+}
+
+.top-pad-2 {
+	padding-top: 20px;
 }
 
 .bold {
@@ -211,26 +272,30 @@ nav {
 }
 
 .mr-t {
-	margin-top: 20px;
+	margin-top: 65px;
 }
 
 .mr-neg {
-	margin-top: 26px
+	margin-top: 45px;
 }
 
 .mr-neg2 {
-	margin-top: 100px
+	margin-top: 100px;
+}
+
+.mr-top-neg {
+	margin-top:-5px;
 }
 
 .blue {
 	color: blue;
 	font-weight: 800;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 200%;
 }
 
 .soda-button {
-	height: 20px;
+	height: 25px;
 	width: 185px;
 	background-color: #FD4049;
 	color: white;
@@ -241,14 +306,114 @@ nav {
 
 .buy-button {
 	width: 195px;
-	height: 45px;
+	height: 50px;
 	background-color: #4C80EC;
 	color: white;
 	font-weight: 100;
-	border: 0
+	border: 0;
+	font-size: 20px
 }
 
 .line-mid {
 	line-height: 50%
+}
+
+.line-double {
+	line-height: 200%;
+}
+
+.no-mg {
+	padding:0;
+	margin:0	
+}
+
+.negative-mg-left {
+	margin-left: -180px;
+}
+
+.square {
+	height: 85px;
+	border-bottom: 1px solid #D1DEE8;
+	margin-bottom: 20px
+}
+
+.dot {
+/* 	padding-top: 35px; */
+	background-color: #4C80EC;
+	color: #4C80EC;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	font-size: 5px
+}
+
+.mg-b {
+	padding-top: 25px;
+}
+
+.mg-bot {
+	margin-bottom: -5px;
+}
+
+.mg-plus {
+	margin-bottom: 35px;
+	margin-top:0px;
+}
+
+.margin-logo {
+	margin-top: 5px;
+	padding-left: 32px;
+}
+
+.mg-plus-s {
+	margin-bottom: 5px;
+	margin-top: -55px;
+}
+
+.mg-plus-3 {
+	margin-top: 8px;
+	line-height: 200%; 
+	font-size: 12px
+}
+
+.arrow-prelast {
+	margin-right: 167px;
+	margin-left: -187px;
+	height: 19px;
+	font-size: 19px;
+}
+
+.mg-busi {
+	margin-left: 25px;
+	font-weight: 800;
+}
+
+.row-pad {
+		padding-top: 10px;
+}
+
+
+.mg-menu {
+	margin-top: 10px
+}
+.arrow-last {
+	color: black;
+	margin-right: 30px;
+	margin-left: -25px;	
+}
+
+.arrow-first {
+	font-size:19px;
+	color:black;
+	margin-right: 150px;
+	margin-left: -150px;
+}
+
+.arrow-second {
+	color: black;
+	margin-right: 25px;
+	margin-left: -30px;
+	font-size: 30px;
+	vertical-align: middle
 }
 
