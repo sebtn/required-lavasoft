@@ -1,0 +1,393 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+@media  only screen and (max-width: 480px) {
+ html {
+  max-width: 480px
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+ 
+ .mg-double-neg {
+  margin-left: -25px;
+  margin-left: -25px;
+ }
+ 
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 25px;
+  margin-right: 25px;
+ }
+
+ .bold {
+  font-weight: 800;
+  font-size:10px;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+/*   margin-right: 15px; */
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 105%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 455px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+ }
+
+ .soda-button {
+	 background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+  margin-left:-50px;
+ }
+
+}
+
+@media  only screen and (min-width: 481px) and (max-width: 767px) { 
+ html {
+  max-width: 767px;
+  min-width: 481px;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 50px;
+  margin-right: 50px;
+ }
+
+ .bold {
+  font-weight: 800;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 105%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+ padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 425px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+ }
+
+ .soda-button {
+	 background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+  margin-left:-50px;
+ }
+
+}
+
+@media  only screen and (min-width: 769px) { 
+ html {
+  min-width: 768px;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+
+ .bold {
+  font-weight: 800;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 105%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 425px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+ }
+
+ .soda-button {
+	 background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+ }
+}
