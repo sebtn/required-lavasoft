@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+.white {
+  background-color: white;
+}
+
+.blank {
+  height: 45px;
+  width: 930px;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+nav {
+  background-color: white;
+  max-width:922px;
+}
+
+.navbar {
+  background-color: white;
+ }
+
+.inline {
+  display: inline;
+}
+
+.mg-2 {
+  margin-right:20px;
+}
+
+.mg-r1 {
+  margin-right: 20px;
+}
+
+.mg-logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+@media  only screen and (max-width: 480px) {
+ html {
+  max-width: 480px
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+ 
+ .mg-double-neg {
+  margin-left: -25px;
+  margin-left: -25px;
+ }
+ 
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 25px;
+  margin-right: 25px;
+ }
+
+ .bold {
+  font-weight: 800;
+  font-size:10px;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+/*   margin-right: 15px; */
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 108%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 455px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+  margin-left:-20px;
+ }
+
+ .soda-button {
+  background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+  margin-left:-70px;
+  margin-bottom:35px;
+ }
+
+}
+
+@media  only screen and (min-width: 481px) and (max-width: 767px) { 
+ html {
+  max-width: 767px;
+  min-width: 481px;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 50px;
+  margin-right: 50px;
+ }
+
+ .bold {
+  font-weight: 800;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 108%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+ padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 425px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+ }
+
+ .soda-button {
+   background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+  margin-left:-50px;
+ }
+
+}
+
+@media  only screen and (min-width: 768px) and (orientation: portrait) { 
+ html {
+  min-width: 768px;
+  max-width: 921px;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+
+ .bold {
+  font-weight: 800;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 108%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 425px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+ }
+
+ .soda-button {
+   background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+ }
+}
+
+@media  only screen and (min-width: 768px) and (orientation: landscape) { 
+ html {
+  min-width: 768px;
+  max-width: 921px;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar {
+  background-color: white;
+ }
+
+ .mg-r1 {
+  margin-right: 52px;
+ }
+
+ .mg-neg {
+  margin-left:-15px;
+ }
+
+ .mg-t1 {
+  margin-top: 25px;
+ }
+
+ .pd-left1 {
+  padding-left: 20px;
+ }
+
+ .pd-top1 {
+  padding-top: 20px;
+ }
+
+ .pd-left2 {
+  padding-left: 45px;
+ }
+
+ .mg-bot1 {
+  margin-bottom: 25px;
+ }
+
+ .mg-double {
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+
+ .bold {
+  font-weight: 800;
+ }
+
+ .section-1 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+  margin-top: -20px;
+ }
+
+ .demo-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #4C80EC;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 80px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .try-button {
+  margin: 20px 0;
+  border-radius: 0;
+  outline: none;
+  background-color: #5BBB48;
+  border: 0;
+  color: white;
+  margin-right: 15px;
+  width: 140px;
+  height: 40px;
+  vertical-align: middle;
+  font-size: 15px;
+ }
+
+ .blank {
+  height: 45px;
+  width: 108%;
+  background-color:white;
+  margin-bottom: 30px;
+ }
+
+ .section-2 {
+  background-color: #F2F9FF;
+  padding: 20px 0;
+ }
+
+ .section-3 {
+  background-color: white;
+  padding-left: 25px;
+  height: 425px
+ }
+
+ .underline {
+  border-bottom: 1px solid  #D1DEE8;
+ }
+
+ .buy-button {
+  background-color: #4C80EC;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 95px;
+  margin-top:25px;
+ }
+
+ .soda-button {
+  background-color: #FD4049;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 155px;
+  margin-top:15px;
+ }
+}
+</style>
+
+<title>SODA </title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+  <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <nav class="navbar navbar-default white">
+   <div class="container-fluid white">
+     <div class="navbar-header white">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="mg-logo white"><img src="https://dl.dropboxusercontent.com/u/8198791/logo155X70.png" alt="logo" height="60" width="90"></img></div>
+    </div>    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <p class="navbar-text pd-left1">FOR YOU <span class="caret"></span></p>
+        <p class="navbar-text pd-left1">MENU ITEM</p>
+        <p class="navbar-text pd-left1">MENU ITEM</p>
+        <p class="navbar-text pd-left1">MENU ITEM</p>  
+      </ul>
+    </div>
+   </div>    
+  </nav>
+ <section class="section-1">
+  <div class="container-fluid">
+   <div class="row">
+    <h3 class="col-xs-12 text-center">The standard Lorem Ipsum passage</h3>
+    <p class="col-xs-12 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> 
+     ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation<br>
+     ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   </div>   
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-xs-12 button-box pd-left2  text-center">
+      <button class="demo-button">DEMO</button>
+      <button class="try-button">TRY FOR FREE</button>
+     </div>
+    </div> 
+   </div>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-xs-12 text-box mg-t1 text-center">
+      <div class=" col-xs-12 textbox textbox-one">
+       <b><span class="checked">&#x2714;</span><span class="text"> 1914 translation by H. Rackhman</span></b><br/>
+       <p class="mg-plus-3">On the other hand, we denounce with righteous indignation and dislike</p>
+      </div>
+      <div class=" col-xs-12 textbox textbox-two">
+       <b><span class="checked">&#x2714;</span><span class="text"> 1914 translation by H. Rackhman</span></b><br/>
+       <p class="mg-plus-3">"On the other hand, we denounce with righteous indignation and dislike men  
+       who are so begulled and demoralized by the charms of pleasure of the moment</p>
+      </div>
+      <div class=" col-xs-12 textbox textbox-three">
+       <b><span class="checked">&#x2714;</span><span class="text"> 1914 translation by H. Rackhman</span></b><br/>
+       <p class="mg-plus-3">"On the other hand, we denounce with righteous indignation and dislike men the pain
+       and trouble that</p>
+      </div>
+     </div>
+    </div> 
+   </div>
+  </div>
+ </section>
+ <div class="col-xs-12 blank"></div> 
+ <section class="section-2">
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-xs-12 text-center mg-t1">
+     <img  src="https://dl.dropboxusercontent.com/u/8198791/esig(w290Xh100).png" alt="esign-logo" height="80" width="230"></img>
+     <h3 class="text-center">Eque porro quisquam est qui dolorem ipsum quia dolor sit amet</h3>
+    </div>
+    <div class="col-xs-6">
+     <div class="text-center pd-top1"><img src="https://dl.dropboxusercontent.com/u/8198791/build(72x72).png" alt="esign-logo" height="72" width="72"></img>
+     </div>
+    </div>
+    <div class="col-xs-6">
+     <div class="text-center pd-top1"><img src="https://dl.dropboxusercontent.com/u/8198791/badge(72X72).png" alt="esign-logo" height="72" width="72"></img>
+     </div>
+    </div>
+    <div class="col-xs-12 text-center pd-top1"><i><p>Contrary to popular belief Lorem Ipsum is not simply random text. It has roots in a piece of classical
+			Latin literature from 45 BC, making it over 2000 years old</p></i></div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <div class="col-xs-12 blank"></div>
+ <section class="section-3 text-center">
+  <div class"container-fluid">
+   <div class="row">
+    <h2 class="mg-bot1">Where does it come from?</h2>
+    <div class="col-xs-3 text-center">
+     <p class="underline bold">Soda<br>10-ITEM</p>
+     <i><p class="">1914 translation <br>by H. Rackham</p></i>
+     <p class="">$25.55</p>
+     <p class="">One time payment</p>
+    </div>
+    <div class="col-xs-3 mg-double text-center">
+     <p class="underline bold">Soda<br>LOREM-ITEM</p>
+     <i><p class="">1914 translation <br>by H. Rackham</p></i>
+     <p class="">$25.55</p>
+     <p class="">Monthly<br>(Billed anually)</p>
+    </div>
+    <div class="col-xs-3 text-center">
+     <p class="underline bold">Soda<br>BUSINESS</p>
+     <i><p class="">1914 translation <br>by H. Rackham</p></i>
+     <p class="">$12.00</p>
+     <p class="">Monthly<br>(Billed anually)</p>
+     <div class=""><button class="buy-button">BUY NOW</button></div>
+     <button class="soda-button">FULL PDF SOLUTION</button>
+    </div>
+   </div>
+  </div>
+ </section>
+</body>
+</html>
+
+
